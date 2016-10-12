@@ -1,9 +1,11 @@
-# Node & Postgres Lecture
+# Node SQL Form Update
 
-## Takeaways
+### Features
 
-* You can connect to your Postgres database using the `pg` module
-* You need to know the name of the database (see `config` in server/routes/books.js)
-* Use `pool.connect(...)` to connect to the database
-* Use `client.query(...)` to query the database with SQL
-* When creating queries with client-submitted data, always use the prepared statement pattern (see router.post in server/routes/books.js)
+- Updated HTML form to capture those new fields.
+- Update server-side database queries to use them for insertion.
+-Updated AJAX GET request to append all of our information to the DOM so that it returns successfully and shows the data from the database.
+
+## Author
+
+### Paul Katchmark
